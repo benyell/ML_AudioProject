@@ -1,0 +1,14 @@
+# Ignore Python virtual environments
+venv/
+*.env/
+*.venv/
+*.pyc
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+.cache/
+cache/*
+!cache/.gitkeep
+# Ignore installed packages
+*.egg-info/
+*.dist-info/
